@@ -1,42 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
 body {
-    background-color: black;
-    color:white;
-    ;
+  background-color: #25252a;
+  color: #e9ecefff;
 }
 
 header {
-  padding: 1em;
-  position: fixed;
-  align-content: center;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  background-color: #25252a;
+  border: #e9ecefff;
+  border-bottom: solid;
 }
-ul {
-    float: left;
-    margin: 30px 0 50px 0;
-    border-radius: 10px;
-    background-color: whitesmoke;
-    color: black;
+h1, h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-li {
-    list-style: none;
-    color: black
+h2 {
+    font-size: 25px;
+}
+a {
+  font-family: "Bebas Neue", cursive;
+  text-decoration-color: none;
+  color: white;
+  text-decoration-line: none;
+}
+
+p {
+  font-family: monospace;
+  font-size: 20px;
 }
 #welcome-section {
-  height: 100vh;
-  padding: 50 em;
-  
-
+  text-align: center;
 }
-#navbar {
+#profile-link {
+  text-align: center;
+  word-spacing: 1em;
+}
+#links {
+  text-align: center;
+}
+#self-photo {
+  border-radius: 40px;
+  border-color: #25252a;
+  width: 25%;
+  border-width: 10px;
+  opacity: 50%;
+  color: #25252a;
+}
+#email {
+    width: 50px;
     
-  position: left;
+}
+.navbar {
   width: 100%;
-  top: 0;
-  left: 0;
+
+  text-align: center;
 }
-.project-image {
-    max-width: 50%;
+.navbar a {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
 }
+.button {
+  display: inline-block;
+  align-items: center;
+  border: none;
+  opacity: 0.75;
+  margin: 5px;
+}
+
 .thumbnail {
-    max-width: 20%;
+  max-width: 50px;
+  max-height: 50px;
+  max-width: 20%;
+  align-content: center;
+  border-radius: 10px;
+  border-style: solid;
+  border-image-width: 5px;
+  background-color: #25252a;
+  opacity: 0.5;
 }
