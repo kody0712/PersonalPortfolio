@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    color:white;
+    ;
+}
+
+header {
+  padding: 1em;
+  position: fixed;
+  align-content: center;
+  text-align: center;
+}
+ul {
+    float: left;
+    margin: 30px 0 50px 0;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    color: black;
+}
+li {
+    list-style: none;
+    color: black
+}
+#welcome-section {
+  height: 100vh;
+  padding: 50 em;
+  
+
+}
+#navbar {
+    
+  position: left;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.project-image {
+    max-width: 50%;
+}
+.thumbnail {
+    max-width: 20%;
+}
