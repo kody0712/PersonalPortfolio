@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Wire+One&display=swap");
+
+body {
+  background-color: #25252a;
+  color: #e9ecefff;
+}
+header {
+  width: 100%;
+  display: fixed;
+  background-color: #25252a;
+  border: #e9ecefff;
+  border-bottom: solid;
+  color: #e9ecefff;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+button {
+    background: #e9ecefff;
+    color: #e9ecefff;
+    text-align: center;
+}
+a {
+  font-size: 30px;
+  font-family: "Bebas Neue", cursive;
+  text-decoration-color: none;
+  color: white;
+  text-decoration-line: none;
+}
+.
+.button {
+  color: #25252a;
+  font-family: cursive;
+  display: inline-block;
+  align-items: center;
+  border: none;
+  opacity: 0.75;
+  margin: 5px;
+}
+.navbar a {
+color: black;
+text-align: center;
+align-items: center;
+opacity: 0.80;
+}
